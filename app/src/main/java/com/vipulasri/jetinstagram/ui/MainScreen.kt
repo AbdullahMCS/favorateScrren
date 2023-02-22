@@ -16,7 +16,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -30,6 +29,7 @@ import com.vipulasri.jetinstagram.ui.HomeSection.Profile
 import com.vipulasri.jetinstagram.ui.HomeSection.Reels
 import com.vipulasri.jetinstagram.ui.components.bottomBarHeight
 import com.vipulasri.jetinstagram.ui.components.icon
+import com.vipulasri.jetinstagram.ui.favorite.FavoriteScreen
 import com.vipulasri.jetinstagram.ui.home.Home
 import com.vipulasri.jetinstagram.ui.reels.Reels
 
@@ -58,7 +58,7 @@ fun MainScreen() {
             Home -> Home()
             Reels -> Reels()
             Add -> Content(title = "Add Post options")
-            Favorite -> Content(title = "Favorite")
+            Favorite -> FavoriteScreen() // SomeText() //Toolbar() //Content(title = "Favorite")
             Profile -> Content(title = "Profile")
         }
     }

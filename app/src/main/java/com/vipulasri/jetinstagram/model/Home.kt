@@ -28,3 +28,15 @@ val names = arrayOf(
     "phillsohn",
     "deitch"
 )
+val userNames = arrayOf(
+    "userName_storee",
+    "userName_nianyc",
+    "userName_opioke",
+    "userName_ashoke",
+    "userName_dark_emarlds",
+    "userName_bedtan",
+    "userName_shrish",
+    "userName_matdo",
+    "userName_phillsohn",
+    "userName_deitch"
+)
